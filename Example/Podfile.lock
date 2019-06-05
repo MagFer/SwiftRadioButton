@@ -1,0 +1,16 @@
+PODS:
+  - SwiftRadioButton (0.1.0)
+
+DEPENDENCIES:
+  - SwiftRadioButton (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftRadioButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftRadioButton: 39e3e2389f82aa24dc07728d7e7f725c22ab321d
+
+PODFILE CHECKSUM: 5c091b9571bfe4e27434bdaf51da7d315e823ce5
+
+COCOAPODS: 1.5.3

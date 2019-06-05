@@ -1,0 +1,6 @@
+framework module SwiftRadioButton {
+  umbrella header "SwiftRadioButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

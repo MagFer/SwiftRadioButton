@@ -1,0 +1,22 @@
+{
+  "name": "SwiftRadioButton",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftRadioButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ian.magfer@gmail.com/SwiftRadioButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ian.magfer@gmail.com": "ian.magfer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ian.magfer@gmail.com/SwiftRadioButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftRadioButton/Classes/**/*"
+}
