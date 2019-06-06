@@ -29,7 +29,7 @@ Radio buttons component for iOS. It allows to create radio buttons and manage au
   s.source           = { :git => 'https://github.com/MagFer/SwiftRadioButton.git', :tag => '0.1.2' }
   s.social_media_url = 'https://twitter.com/ianmagarzo'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'SwiftRadioButton/Classes/**/*'
   #s.resource_bundles = {
