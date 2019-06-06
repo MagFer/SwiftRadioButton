@@ -12,10 +12,11 @@
 		330DCD2853BEA73DFD7B9248F635FDDB /* SwiftRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D201CBE745E01375095398FCCEE599 /* SwiftRadioButton-dummy.m */; };
 		58CB9F1A8EE7B2B20E6580852A491CF8 /* Pods-SwiftRadioButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F1CB434940114152883D72E88CF94 /* Pods-SwiftRadioButton_Tests-dummy.m */; };
 		65ACB7C407B6EE608D48C61C9C16C50D /* Pods-SwiftRadioButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72231BEE82221A1490147103A673822C /* Pods-SwiftRadioButton_Example-dummy.m */; };
+		668F4DBD22A81DC100B2EE8E /* RadioButtonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F4DB922A81C4B00B2EE8E /* RadioButtonsGroup.swift */; };
 		79DEC5F8815804E7C9B7B1E58FA7C6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		A010945559765BBF362FED5A6B460090 /* SwiftRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3DE4E6CA1ADDFF3B30541D7D8588BD /* SwiftRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE11DB193BEB43E5F77D60FCEEDFD294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F4221A0E8F67208771A721AE640630CC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EFD1AE929A1F4D9E6FD6336556DA0 /* ReplaceMe.swift */; };
+		F4221A0E8F67208771A721AE640630CC /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EFD1AE929A1F4D9E6FD6336556DA0 /* RadioButton.swift */; };
 		FFDE35CDB64F45A1FB1862B0B6569D72 /* Pods-SwiftRadioButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FEE6DD1D3FBFC0FBD9257DAF60EFD46 /* Pods-SwiftRadioButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,30 +39,31 @@
 
 /* Begin PBXFileReference section */
 		027796C7DB3E1FE109E83D06AFA4073D /* Pods-SwiftRadioButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftRadioButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0C4FB3FCDD115B475686725296E409A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		14B3D0A74E8BD3DC11804C866CF18D31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C4FB3FCDD115B475686725296E409A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		14B3D0A74E8BD3DC11804C866CF18D31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D03A7C0B031231E2517F9FAF22FB163 /* Pods-SwiftRadioButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftRadioButton_Example.modulemap"; sourceTree = "<group>"; };
 		204F1CB434940114152883D72E88CF94 /* Pods-SwiftRadioButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftRadioButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		2361B213859F1B8D57AFEBF5DFE6783F /* Pods-SwiftRadioButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftRadioButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2904C6DFA2963EDE486ADC8B9F694E97 /* Pods-SwiftRadioButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftRadioButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		34B11AC92A3BDF9C3A51288D0FCB4A29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		367AA4860B250EAE69CD2499A7F7112D /* Pods-SwiftRadioButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftRadioButton_Tests.modulemap"; sourceTree = "<group>"; };
 		50016FDC1CE6BF267F32B02743D2777E /* Pods-SwiftRadioButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRadioButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		532DEEC8605478C10CF754A585DF0EF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E3DE4E6CA1ADDFF3B30541D7D8588BD /* SwiftRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		668F4DB922A81C4B00B2EE8E /* RadioButtonsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadioButtonsGroup.swift; path = SwiftRadioButton/Classes/RadioButtonsGroup.swift; sourceTree = "<group>"; };
 		6FEE6DD1D3FBFC0FBD9257DAF60EFD46 /* Pods-SwiftRadioButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftRadioButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		72231BEE82221A1490147103A673822C /* Pods-SwiftRadioButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftRadioButton_Example-dummy.m"; sourceTree = "<group>"; };
-		803FF8D6003AF2840615C609500D910D /* SwiftRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftRadioButton.framework; path = SwiftRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803FF8D6003AF2840615C609500D910D /* SwiftRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CBAB88067BCB2292E45D6A6AD0E3AB /* Pods-SwiftRadioButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftRadioButton_Example-resources.sh"; sourceTree = "<group>"; };
 		99FFDE0A1468E0ED306DF6F310034839 /* Pods-SwiftRadioButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftRadioButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C1362D333B06BFD6BB918369B316EE0 /* SwiftRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftRadioButton.xcconfig; sourceTree = "<group>"; };
 		9D08AE393136A912DBBCF91CF65B880C /* Pods-SwiftRadioButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftRadioButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B93B1F4E5CDBF9C394C395CC2D7AFFDE /* SwiftRadioButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftRadioButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B93B1F4E5CDBF9C394C395CC2D7AFFDE /* SwiftRadioButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwiftRadioButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CB97097577F6AA8AC7F4E5C098BEFE0E /* Pods-SwiftRadioButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRadioButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8561E478AA5B0512286AB4F35AD6A80 /* Pods-SwiftRadioButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftRadioButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBDB67B4135EC103924EA6F5AB2B529F /* Pods_SwiftRadioButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftRadioButton_Tests.framework; path = "Pods-SwiftRadioButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDB67B4135EC103924EA6F5AB2B529F /* Pods_SwiftRadioButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRadioButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5A534BED7B686DD4D9F273D0BAE8E7 /* Pods-SwiftRadioButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftRadioButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		DE1548B247EB4FD5338628502AD14AD0 /* SwiftRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftRadioButton-prefix.pch"; sourceTree = "<group>"; };
 		E1344B8583D137CD15D0BE7CAD35873B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,9 +71,9 @@
 		E4D201CBE745E01375095398FCCEE599 /* SwiftRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftRadioButton-dummy.m"; sourceTree = "<group>"; };
 		E63521240A8EC726971FFB11C0C8E20F /* Pods-SwiftRadioButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRadioButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA70BAA3CB0D18FDFB99D3DCB8D23F29 /* Pods-SwiftRadioButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRadioButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0EA972426AB5C05B61D1E2ACCB3AFE5 /* Pods_SwiftRadioButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftRadioButton_Example.framework; path = "Pods-SwiftRadioButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EA972426AB5C05B61D1E2ACCB3AFE5 /* Pods_SwiftRadioButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRadioButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F794842905BDB013ECFA1A18D6B322C2 /* SwiftRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftRadioButton.modulemap; sourceTree = "<group>"; };
-		FA2EFD1AE929A1F4D9E6FD6336556DA0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftRadioButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FA2EFD1AE929A1F4D9E6FD6336556DA0 /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButton.swift; path = SwiftRadioButton/Classes/RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +221,8 @@
 		F5CEA0A92D1762283706DC5829716989 /* SwiftRadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				FA2EFD1AE929A1F4D9E6FD6336556DA0 /* ReplaceMe.swift */,
+				668F4DB922A81C4B00B2EE8E /* RadioButtonsGroup.swift */,
+				FA2EFD1AE929A1F4D9E6FD6336556DA0 /* RadioButton.swift */,
 				9A1A0F8F4B1455D9840ACF5BDE3BD653 /* Pod */,
 				B56FBDADE29A84C6A1ECC60619C85617 /* Support Files */,
 			);
@@ -321,12 +324,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D87A8D1B30F95254657A17E235167E23 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -370,7 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4221A0E8F67208771A721AE640630CC /* ReplaceMe.swift in Sources */,
+				668F4DBD22A81DC100B2EE8E /* RadioButtonsGroup.swift in Sources */,
+				F4221A0E8F67208771A721AE640630CC /* RadioButton.swift in Sources */,
 				330DCD2853BEA73DFD7B9248F635FDDB /* SwiftRadioButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +457,7 @@
 			baseConfigurationReference = EA70BAA3CB0D18FDFB99D3DCB8D23F29 /* Pods-SwiftRadioButton_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -469,6 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -662,8 +674,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -706,6 +717,7 @@
 			baseConfigurationReference = 50016FDC1CE6BF267F32B02743D2777E /* Pods-SwiftRadioButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -728,6 +740,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftRadioButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftRadioButton.'
+  s.summary          = 'Radio button and logic to group them.'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +19,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Radio buttons component for iOS. It allows to create radio buttons and manage automatically the selection of them.
                        DESC
 
-  s.homepage         = 'https://github.com/ian.magfer@gmail.com/SwiftRadioButton'
+  s.homepage         = 'https://github.com/MagFer/SwiftRadioButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ian.magfer@gmail.com' => 'ian.magfer@gmail.com' }
-  s.source           = { :git => 'https://github.com/ian.magfer@gmail.com/SwiftRadioButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Ian Magarzo' => 'ian.magfer@gmail.com' }
+  s.source           = { :git => 'https://github.com/MagFer/SwiftRadioButton.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ianmagarzo'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SwiftRadioButton/Classes/**/*'
+  #s.resource_bundles = {
+  #   'SwiftRadioButtonResourcesXX' => ['SwiftRadioButton/Assets/*.png']
+  #}
+  #s.resources = 'SwiftRadioButton/Pod/Assets/*.pdf'
   
-  # s.resource_bundles = {
-  #   'SwiftRadioButton' => ['SwiftRadioButton/Assets/*.png']
-  # }
+  s.resources = 'SwiftRadioButton/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
