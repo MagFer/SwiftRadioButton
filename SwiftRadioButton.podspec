@@ -35,9 +35,9 @@ Radio buttons component for iOS. It allows to create radio buttons and manage au
   #s.resource_bundles = {
   #   'SwiftRadioButtonResourcesXX' => ['SwiftRadioButton/Assets/*.png']
   #}
-  #s.resources = 'SwiftRadioButton/Pod/Assets/*.pdf'
+  #s.resources = 'SwiftRadioButton/Pod/Assets/*'
   
-  s.resources = 'SwiftRadioButton/Assets/*.png'
+  s.resources = 'SwiftRadioButton/Assets/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
